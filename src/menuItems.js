@@ -12,26 +12,12 @@ export const menuItems = [
     url: "/getHelp",
   },
   {
-    title: "web development",
-    url: "web-dev",
+    title: "Account",
+    // url: "/account",
     submenu: [
-      {
-        title: "Frontend",
-        url: "frontend",
-      },
-      {
-        title: "Backend",
-        submenu: [
-          {
-            title: "NodeJS",
-            url: "node",
-          },
-          {
-            title: "PHP",
-            url: "php",
-          },
-        ],
-      },
+      { title: "Not Your Account? Login", url: "/login" },
+      { title: "Log Out", url: "/logout" },
+      { title: "Profile", url: "/profile" },
     ],
   },
 ];

@@ -1,7 +1,8 @@
 export const sideBarMenuItems = [
+  //whats the deal with the back slashes?
   {
     title: "Vodka",
-    url: "/vodka",
+    // url: "/vodka",
     submenu: [
       {
         title: "History of Vodka",
@@ -9,7 +10,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Production of Vodka",
-        url: "production-of-vodka",
+        url: "/production-of-vodka",
       },
       {
         title: "Discussing Vodkas Taste and Style",
@@ -27,7 +28,7 @@ export const sideBarMenuItems = [
   },
   {
     title: "Gin",
-    url: "/gin",
+    // url: "/gin",
     submenu: [
       {
         title: "Production of Gin",
@@ -56,7 +57,7 @@ export const sideBarMenuItems = [
   },
   {
     title: "Whiskey",
-    url: "/whiskey",
+    // url: "/whiskey",
     submenu: [
       {
         title: "History of Whiskey",
@@ -64,7 +65,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Production of Whiskey",
-        url: "produciton of whiskey",
+        url: "production-of-whiskey",
       },
       {
         title: "Scotch Whiskey",
@@ -76,14 +77,14 @@ export const sideBarMenuItems = [
       },
       {
         title: "American Whiskey",
-        url: "american-whiskey",
+        // url: "american-whiskey",
         submenu: [
           {
             title: "History of American Whiskey",
             url: "history-of-american-whiskey",
           },
           { title: "Bourbon Whiskey", url: "bourbon-whiskey" },
-          { title: "Tennesse Whiskey", url: "tennesse Whiskey" },
+          { title: "Tennesse Whiskey", url: "tennesse-whiskey" },
           {
             title: "American Straight Whiskeys",
             url: "american-straight-whiskeys",
@@ -105,7 +106,7 @@ export const sideBarMenuItems = [
   },
   {
     title: "Brandy and other Eaux-de-vie ",
-    url: "/brandy",
+    // url: "/brandy",
     submenu: [
       {
         title: "History of Brandy",
@@ -113,7 +114,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Production of Brandy",
-        url: "produciton of brandy",
+        url: "production-of-brandy",
       },
       {
         title: "Grape Brandy",
@@ -145,15 +146,15 @@ export const sideBarMenuItems = [
               { title: "History of Pisco", url: "history-of-pisco" },
               {
                 title: "Production of Pisco",
-                url: "production-of-Pisco",
+                url: "production-of-pisco",
               },
               {
                 title: "Peruvian Pisco",
-                url: "peruvian-Pisco",
+                url: "peruvian-pisco",
               },
               {
                 title: "Chilean Pisco",
-                url: "Chilean-Pisco",
+                url: "chilean-pisco",
               },
             ],
           },
@@ -164,7 +165,7 @@ export const sideBarMenuItems = [
   },
   {
     title: "Rum and other Sugarcane Based Spirits",
-    url: "/rum",
+    // url: "/rum",
     submenu: [
       {
         title: "History of Rum",
@@ -172,7 +173,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Production of Rum",
-        url: "produciton-of-Rum",
+        url: "/production-of-Rum",
       },
       {
         title: "Rhum Agricole",
@@ -190,11 +191,11 @@ export const sideBarMenuItems = [
   },
   {
     title: "Agave-Based Spirits",
-    url: "/agave",
+    //url: "/agave",
     submenu: [
       {
         title: "History of Agave based Spirits",
-        url: "history-of-agave based spirits",
+        url: "history-of-agave-based-spirits",
       },
       {
         title: "Tequila",
@@ -210,7 +211,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Mezcal",
-        url: "mezcal",
+        //url: "mezcal",
         submenu: [
           { title: "Production of Mezcal", url: "production-of-mezcal" },
           {
@@ -229,7 +230,7 @@ export const sideBarMenuItems = [
 
   {
     title: "Liqueurs",
-    url: "/liqueurs",
+    // url: "/liqueurs",
     submenu: [
       {
         title: "History of Liqueurs",
@@ -260,7 +261,7 @@ export const sideBarMenuItems = [
   },
   {
     title: "Vermouth, Amari, and Bitters",
-    url: "/vermouth-amari-and-bitters",
+    // url: "/vermouth-amari-and-bitters",
     submenu: [
       {
         title: "The Taste Component of Bitter",
@@ -268,7 +269,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Aromatized Wines",
-        url: "aromatized-wines",
+        url: "the-taste-component-of-bitter",
       },
       {
         title: "Vermouth",
@@ -283,7 +284,7 @@ export const sideBarMenuItems = [
         url: "vini-amari-bittered-wines",
         submenu: [
           { title: "Quinquina", url: "quinquina" },
-          { title: "Americano", url: "quinquina" },
+          { title: "Americano", url: "americano" },
           { title: "Spirit Amari", url: "spirit-amari" },
           { title: "French Amer", url: "french-amer" },
           {
@@ -308,7 +309,7 @@ export const sideBarMenuItems = [
       },
       {
         title: "Professional Bar Equipment",
-        url: "professional Bar Equipment",
+        url: "professional-bar-equipment",
       },
       {
         title: "Bar Terminology",

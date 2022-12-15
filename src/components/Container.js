@@ -80,7 +80,7 @@ const Container = () => {
                         "group flex items-center px-2 py-2 text-base font-medium rounded-md"
                       )}
                     >
-                      {item.name}
+                      {/* {item.name} */}
                     </a>
                   </nav>
                 </div>

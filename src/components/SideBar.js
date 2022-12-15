@@ -1,22 +1,11 @@
-import { sideBarMenuItems } from "../sideBarMenuItems";
-import SideBarMenuItems from "./SideBarMenuItems";
+import React from "react";
+import SideBarNavBar from "./SideBarNavbar";
 
-const SideBar = ({ items, depthLevel }) => {
+const SideBar = () => {
   return (
-    <nav>
-      <ul className="sidebar flex-col">
-        {sideBarMenuItems.map((menu, index) => {
-          const depthLevel = 0;
-          return (
-            <SideBarMenuItems
-              items={menu}
-              key={index}
-              depthLevel={depthLevel}
-            />
-          );
-        })}
-      </ul>
-    </nav>
+    <div className="max-w-xl">
+      <SideBarNavBar />
+    </div>
   );
 };
 
